@@ -7,7 +7,7 @@ export default {
       methods: {
         initChart(container, option, onclick) {
           const myChart = echarts.init(container);
-          option.color = ["#FF0FCC", 'orangred', "#99CCCC", "#FF6666", 'skyblue'];
+          option.color =['#c23531','#2f4554', '#61a0a8', '#d48265', '#91c7ae','#749f83',  '#ca8622', '#bda29a','#6e7074', '#546570', '#c4ccd3'];
           myChart.setOption(option);
           if (onclick) myChart.on("click", onclick);
         }

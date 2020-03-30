@@ -42,8 +42,8 @@
             zhongjiang: 11000
           }],
         options: {
-          title: "我的图表",
-          subtext: "@simbajs",
+          title: "折线图",
+          subtext: "",
           xAxisKey: "date",
           tooltipFmt(data) {
             return `${data.name}<br>${data.marker} ${data.seriesName}了${data.value}元`;
